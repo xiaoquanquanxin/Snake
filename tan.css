@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+main {
+    position: relative;
+    margin: auto;
+    width: 1802px;
+    height: 904px;
+    border: solid 1px crimson;
+}
+
+header {
+    text-align: center;
+    line-height: 60px;
+    border-bottom: blue solid 1px;
+    position: relative;
+}
+
+footer {
+    border-top: 1px solid green;
+}
+
+footer > h3 > button {
+    line-height: 40px;
+    width: 120px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    border: none;
+}
+
+center {
+    background: lightyellow;
+    height: 800px;
+    width: 100%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+li {
+    width: 14%;
+    height: 114px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid yellow;
+    box-sizing: border-box;
+
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
